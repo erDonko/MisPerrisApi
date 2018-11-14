@@ -132,4 +132,8 @@ REST_FRAMEWORK = {
 }
 
 # Custom user model
+# Esto es lo que me tira el error "lazy reference: doesn't provide model user"
+# No entiendo a que se debe ni como solucionarlo.
+# Trate de buscar como solucionarlo pero todas las soluciones dicen algo distinto
+# Por ahora solo se me ocurre crear el proyecto nuevamente sin los migrates iniciales
 AUTH_USER_MODEL = 'App.PersonaTest'

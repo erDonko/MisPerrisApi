@@ -14,3 +14,6 @@ class CustomUserAdmin(UserAdmin):
 
 
 admin.site.register(PersonaTest, CustomUserAdmin)
+
+# Por lo que entendi, de no incorporar un CustomUserAdmin, Django se cae
+# al hacer migraciones. 

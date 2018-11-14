@@ -13,3 +13,6 @@ class PersonaTestChangeForm(UserChangeForm):
     class Meta(UserChangeForm):
         model = PersonaTest
         fields = ('usname', 'email')
+
+# honestamente no entiendo exactamente que hacen, en la referencia no dice
+# explicitamente para que sirven. solo puedo implicar que hacen.
